@@ -29,7 +29,7 @@ class New_Year extends Promo {
     void discount(double bayaran){
         potongan = (bayaran/100)*5;
         total = bayaran - potongan;
-        System.out.println("Discount: 20%");
+        System.out.println("Discount: 5%");
         System.out.println("Amount Yang Harus Di Bayar = "+total);
     }
 }
